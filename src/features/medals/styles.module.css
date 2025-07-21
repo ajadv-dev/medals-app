@@ -1,0 +1,81 @@
+.flag {
+    width: 28px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: 'Segoe UI', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.headerCell {
+    padding: 12px;
+    background-color: #1e1e1e;
+    cursor: pointer;
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #333;
+    transition: background 0.2s ease;
+}
+
+.headerCell:hover,
+.activeSort {
+    background-color: #2c2c2c;
+    color: #ffd700; /* golden highlight */
+    border-bottom: 2px solid #ffd700;
+}
+
+.row {
+    transition: background 0.2s ease;
+}
+
+.row:hover {
+    background-color: #1a1a1a;
+}
+
+.dataCell {
+    padding: 10px 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #222;
+}
+
+.dataCell:nth-child(1) {
+    text-align: center;
+}
+
+.dataCell:nth-child(2) {
+    font-weight: 600;
+    color: #dcdcdc;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    width: 10rem;
+}
+
+.dataCell:nth-child(3) {
+    color: #ffd700;
+}
+
+.dataCell:nth-child(4) {
+    color: #c0c0c0;
+}
+
+.dataCell:nth-child(5) {
+    color: #cd7f32;
+}
+
+.dataCell:nth-child(6) {
+    font-weight: bold;
+}
