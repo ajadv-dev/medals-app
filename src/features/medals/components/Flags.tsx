@@ -7,7 +7,7 @@ export const Flag = ({ code }: { code: string}) => {
  const sortedCountryCodes = countryCodes.sort((a, b) => a.localeCompare(b));
     const index = sortedCountryCodes.indexOf(code.toUpperCase())
     const yOffset = -index * FLAG_HEIGHT;
-console.log('flagsPngUrl', flagsPngUrl);
+
     return (
         <div
             className={styles.flag}
