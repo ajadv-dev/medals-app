@@ -1,6 +1,6 @@
 # 🏅 medals-app
 
-Welcome to **medals-app** — a lightweight, interactive web application for viewing Olympic Games medal statistics and rankings. The app is built with simplicity and performance in mind and is easily deployable via [GitHub Pages](https://ajadv-dev.github.io/medals-app/).
+Welcome to **medals-app** — a lightweight, interactive web application for viewing Olympic Games medal statistics and rankings. The app is built with simplicity in mind and is easily deployable via [GitHub Pages](https://ajadv-dev.github.io/medals-app/).
 
 ---
 
